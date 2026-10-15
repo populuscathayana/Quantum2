@@ -1,0 +1,27 @@
+{
+  "compound": "(2E,4E)-hexa-2,4-dienoic acid (sorbic acid)",
+  "cas": "110-44-1",
+  "source": "Nishiyama Y, Tamura Y, Ibe A, et al. Study on Isomers of Sorbic Acid Produced in Food. Eisei Kagaku, 1991, 37(2), 89-96.",
+  "doi": "10.1248/jhs1956.37.89",
+  "url": "https://www.jstage.jst.go.jp/article/jhs1956/37/2/37_2_89/_article/-char/en",
+  "download_url": "https://www.jstage.jst.go.jp/article/jhs1956/37/2/37_2_89/_pdf/-char/en",
+  "local_source": "references/experimental/nishiyama-1991-sorbic-isomers.pdf",
+  "access_date": "2026-10-09",
+  "location": "Table II, SOA column, printed p. 93 / PDF page 5; methods p. 90 / PDF page 2; numbered trans,trans structure Fig. 3 p. 94 / PDF page 6",
+  "solvent": "CDCl3",
+  "reference": "TMS internal standard",
+  "instrument": "JEOL JNM-FX270",
+  "temperature_C": null,
+  "concentration": null,
+  "transcription": "Six printed chemical shifts from the SOA (sorbic acid) column only. US/S-1/S-2/S-3 are other geometrical isomers and are excluded. Source carbon numbers start at COOH, unlike the project's numbering, which starts at CH3. Original table numbering is retained below without alteration. No intensities, line widths, uncertainties or raw trace were extracted.",
+  "comparison_scope": "Compare methyl-referenced positions in two ways: atom-by-atom using the printed Table II assignment and, separately, ascending peak sets within each fragment. Project carbon index = 7 - source carbon number. Preserve the source assignment even where calculated ordering differs. Both alkene MAEs exclude methyl and carboxyl carbons; no fitted scale or population weights.",
+  "peaks": [
+    {"source_carbon_number": 1, "group": "COOH", "delta_ppm": 173.00},
+    {"source_carbon_number": 2, "group": "alkene", "delta_ppm": 118.25},
+    {"source_carbon_number": 3, "group": "alkene", "delta_ppm": 147.34},
+    {"source_carbon_number": 4, "group": "alkene", "delta_ppm": 140.74},
+    {"source_carbon_number": 5, "group": "alkene", "delta_ppm": 129.73},
+    {"source_carbon_number": 6, "group": "CH3", "delta_ppm": 18.70}
+  ],
+  "source_selection_note": "AIST SDBS entry 115 was inspected after user-approved disclaimer acceptance. It lists MS, IR and Raman, but no NMR; no SDBS NMR values were used. The primary research paper above provides the experimental carbon data."
+}

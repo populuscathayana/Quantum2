@@ -1,0 +1,28 @@
+{
+  "compound": "(2E,4E)-sorbic acid",
+  "cas": "110-44-1",
+  "source_url": "https://mhlw-grants.niph.go.jp/system/files/2010/104031/201033054A/201033054A0001.pdf",
+  "local_source": "mhlw-201033054A-report.pdf",
+  "title": "NMRを用いた食品中の食品添加物分析法の開発に関する研究",
+  "principal_investigator": "大槻 崇",
+  "institution": "国立医薬品食品衛生研究所",
+  "report_date": "2011-04",
+  "accessed": "2026-10-09",
+  "figure": "Fig. 1, printed p. 11, PDF page 13",
+  "methods": "Printed p. 3 and Table 1 (printed p. 16)",
+  "solvent": "DMSO-d6",
+  "reference": "DSS-d6 internal standard, delta=0 ppm",
+  "frequency_MHz": 600,
+  "temperature_C": 25,
+  "sample_preparation": "General standard preparation: approximately 10 mg analyte in approximately 1.0 g qNMR standard solution or deuterated solvent. Exact concentration for Fig. 1 not separately stated.",
+  "digitization": "Chemical shifts transcribed from explicit structural labels in Fig. 1, not estimated from pixels. Only peak positions used; raw trace, widths, intensities, multiplets and coupling constants are not digitized.",
+  "numbering": "Project numbering starts at methyl C1 and ends at carboxyl C6; opposite to IUPAC acid numbering. H9-H11 on C1; H12-H15 on C2-C5; H16 is OH. Dimer second fragment uses +16.",
+  "peaks": [
+    {"site": "CH3", "atoms": [9, 10, 11], "count": 3, "delta_ppm": 1.84},
+    {"site": "H12", "atoms": [12], "count": 1, "delta_ppm": 6.26},
+    {"site": "H13", "atoms": [13], "count": 1, "delta_ppm": 6.26},
+    {"site": "H14", "atoms": [14], "count": 1, "delta_ppm": 7.18},
+    {"site": "H15", "atoms": [15], "count": 1, "delta_ppm": 5.79},
+    {"site": "OH", "atoms": [16], "count": 1, "delta_ppm": 12.2}
+  ]
+}

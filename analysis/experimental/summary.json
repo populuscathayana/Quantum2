@@ -1,0 +1,392 @@
+{
+  "uv": {
+    "reference_url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C110441&Mask=400",
+    "download_url": "https://webbook.nist.gov/cgi/cbook.cgi?Index=0&JCAMP=C110441&Type=UVVis",
+    "source": "Timmons, C. J., UV atlas of organic compounds, 1966, 1, B7/1; NIST/RAS UV No. 19947",
+    "solvent": null,
+    "concentration": null,
+    "temperature": null,
+    "n_points": 126,
+    "range_nm": [
+      200.07,
+      292.23
+    ],
+    "maximum_log10_epsilon": 4.443,
+    "maximum_plateau_nm": [
+      255.56,
+      256.41
+    ],
+    "peak_midpoint_nm": 255.985,
+    "fwhm": {
+      "left_nm": 237.6224974468797,
+      "right_nm": 272.17941510915443,
+      "width_nm": 34.55691766227474
+    },
+    "calculations": [
+      {
+        "system": "conf-01",
+        "peak_nm": 256.2,
+        "difference_from_reference_midpoint_nm": 0.214999999999975,
+        "fwhm": {
+          "left_nm": 248.49557795381884,
+          "right_nm": 264.39437445147274,
+          "width_nm": 15.898796497653905
+        }
+      },
+      {
+        "system": "conf-02",
+        "peak_nm": 257.44,
+        "difference_from_reference_midpoint_nm": 1.454999999999984,
+        "fwhm": {
+          "left_nm": 249.66638097286443,
+          "right_nm": 265.7190521390482,
+          "width_nm": 16.052671166183757
+        }
+      },
+      {
+        "system": "dimer-01-01",
+        "peak_nm": 264.32,
+        "difference_from_reference_midpoint_nm": 8.33499999999998,
+        "fwhm": {
+          "left_nm": 255.3921240609305,
+          "right_nm": 273.81297538424013,
+          "width_nm": 18.42085132330962
+        }
+      },
+      {
+        "system": "dimer-01-02",
+        "peak_nm": 263.53,
+        "difference_from_reference_midpoint_nm": 7.544999999999959,
+        "fwhm": {
+          "left_nm": 252.91837069560887,
+          "right_nm": 273.863445780881,
+          "width_nm": 20.94507508527215
+        }
+      },
+      {
+        "system": "dimer-02-02",
+        "peak_nm": 265.31,
+        "difference_from_reference_midpoint_nm": 9.324999999999989,
+        "fwhm": {
+          "left_nm": 256.31590476310294,
+          "right_nm": 274.7801982984411,
+          "width_nm": 18.464293535338186
+        }
+      }
+    ],
+    "method": "Convert log10(epsilon) to linear epsilon. Normalize each experimental/calculated curve by its own maximum over 200.07-292.23 nm. No horizontal shift, fitted width, baseline subtraction, mixture weights, or extrapolation. Calculations retain energy Gaussian FWHM 0.30 eV.",
+    "limitations": "The NIST entry does not state solvent, concentration or temperature; this is not a matched-solvent validation. Plateau midpoint is descriptive, not a measured precision or confidence interval. Experimental spectrum digitized from a historical atlas; FWHM linearly interpolated from tabulated points."
+  },
+  "nmr_H": {
+    "source": {
+      "compound": "(2E,4E)-sorbic acid",
+      "cas": "110-44-1",
+      "source_url": "https://mhlw-grants.niph.go.jp/system/files/2010/104031/201033054A/201033054A0001.pdf",
+      "local_source": "mhlw-201033054A-report.pdf",
+      "title": "NMRを用いた食品中の食品添加物分析法の開発に関する研究",
+      "principal_investigator": "大槻 崇",
+      "institution": "国立医薬品食品衛生研究所",
+      "report_date": "2011-04",
+      "accessed": "2026-10-09",
+      "figure": "Fig. 1, printed p. 11, PDF page 13",
+      "methods": "Printed p. 3 and Table 1 (printed p. 16)",
+      "solvent": "DMSO-d6",
+      "reference": "DSS-d6 internal standard, delta=0 ppm",
+      "frequency_MHz": 600,
+      "temperature_C": 25,
+      "sample_preparation": "General standard preparation: approximately 10 mg analyte in approximately 1.0 g qNMR standard solution or deuterated solvent. Exact concentration for Fig. 1 not separately stated.",
+      "digitization": "Chemical shifts transcribed from explicit structural labels in Fig. 1, not estimated from pixels. Only peak positions used; raw trace, widths, intensities, multiplets and coupling constants are not digitized.",
+      "numbering": "Project numbering starts at methyl C1 and ends at carboxyl C6; opposite to IUPAC acid numbering. H9-H11 on C1; H12-H15 on C2-C5; H16 is OH. Dimer second fragment uses +16.",
+      "peaks": [
+        {
+          "site": "CH3",
+          "atoms": [
+            9,
+            10,
+            11
+          ],
+          "count": 3,
+          "delta_ppm": 1.84
+        },
+        {
+          "site": "H12",
+          "atoms": [
+            12
+          ],
+          "count": 1,
+          "delta_ppm": 6.26
+        },
+        {
+          "site": "H13",
+          "atoms": [
+            13
+          ],
+          "count": 1,
+          "delta_ppm": 6.26
+        },
+        {
+          "site": "H14",
+          "atoms": [
+            14
+          ],
+          "count": 1,
+          "delta_ppm": 7.18
+        },
+        {
+          "site": "H15",
+          "atoms": [
+            15
+          ],
+          "count": 1,
+          "delta_ppm": 5.79
+        },
+        {
+          "site": "OH",
+          "atoms": [
+            16
+          ],
+          "count": 1,
+          "delta_ppm": 12.2
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "system": "conf-01",
+        "alkene_site_count": 4,
+        "alkene_MAE_ppm": 0.12830833333333325,
+        "alkene_RMSE_ppm": 0.1936166580585925,
+        "OH_relative_shifts_ppm": [
+          3.2158333333333324
+        ]
+      },
+      {
+        "system": "conf-02",
+        "alkene_site_count": 4,
+        "alkene_MAE_ppm": 0.13769166666666632,
+        "alkene_RMSE_ppm": 0.1832398344914242,
+        "OH_relative_shifts_ppm": [
+          3.3056333333333328
+        ]
+      },
+      {
+        "system": "dimer-01-01",
+        "alkene_site_count": 8,
+        "alkene_MAE_ppm": 0.14956666666666707,
+        "alkene_RMSE_ppm": 0.20929764955945243,
+        "OH_relative_shifts_ppm": [
+          10.254166666666663,
+          10.254166666666663
+        ]
+      },
+      {
+        "system": "dimer-01-02",
+        "alkene_site_count": 8,
+        "alkene_MAE_ppm": 0.14113749999999992,
+        "alkene_RMSE_ppm": 0.19316184671869832,
+        "OH_relative_shifts_ppm": [
+          10.249733333333332,
+          10.098533333333332
+        ]
+      },
+      {
+        "system": "dimer-02-02",
+        "alkene_site_count": 8,
+        "alkene_MAE_ppm": 0.12838333333333574,
+        "alkene_RMSE_ppm": 0.17256423763663098,
+        "OH_relative_shifts_ppm": [
+          10.10176666666667,
+          10.10176666666667
+        ]
+      }
+    ],
+    "method": "Compare delta_i - delta_methyl with mean(sigma_methyl) - sigma_i; methyl protons averaged as a fast-rotation approximation. Dimers use one mean over both methyl groups but retain individual fragment sites. No empirical scale fit, TMS calculation, population weights, chemical-exchange model or J-split experimental trace reconstruction. MAE excludes methyl anchor and exchangeable OH, and gives each of four alkene sites in each fragment equal weight.",
+    "limitations": "Gas-phase fixed-structure predictions versus DMSO-d6 experiment. DMSO hydrogen bonding and exchange can affect OH, so agreement of a cyclic dimer OH spacing does not establish its solution population. Experimental H12/H13 overlap at the reported 0.01 ppm precision; not proof of exact equivalence."
+  },
+  "nmr_C": {
+    "source": {
+      "compound": "(2E,4E)-hexa-2,4-dienoic acid (sorbic acid)",
+      "cas": "110-44-1",
+      "source": "Nishiyama Y, Tamura Y, Ibe A, et al. Study on Isomers of Sorbic Acid Produced in Food. Eisei Kagaku, 1991, 37(2), 89-96.",
+      "doi": "10.1248/jhs1956.37.89",
+      "url": "https://www.jstage.jst.go.jp/article/jhs1956/37/2/37_2_89/_article/-char/en",
+      "download_url": "https://www.jstage.jst.go.jp/article/jhs1956/37/2/37_2_89/_pdf/-char/en",
+      "local_source": "references/experimental/nishiyama-1991-sorbic-isomers.pdf",
+      "access_date": "2026-10-09",
+      "location": "Table II, SOA column, printed p. 93 / PDF page 5; methods p. 90 / PDF page 2; numbered trans,trans structure Fig. 3 p. 94 / PDF page 6",
+      "solvent": "CDCl3",
+      "reference": "TMS internal standard",
+      "instrument": "JEOL JNM-FX270",
+      "temperature_C": null,
+      "concentration": null,
+      "transcription": "Six printed chemical shifts from the SOA (sorbic acid) column only. US/S-1/S-2/S-3 are other geometrical isomers and are excluded. Source carbon numbers start at COOH, unlike the project's numbering, which starts at CH3. Original table numbering is retained below without alteration. No intensities, line widths, uncertainties or raw trace were extracted.",
+      "comparison_scope": "Compare methyl-referenced positions in two ways: atom-by-atom using the printed Table II assignment and, separately, ascending peak sets within each fragment. Project carbon index = 7 - source carbon number. Preserve the source assignment even where calculated ordering differs. Both alkene MAEs exclude methyl and carboxyl carbons; no fitted scale or population weights.",
+      "peaks": [
+        {
+          "source_carbon_number": 1,
+          "group": "COOH",
+          "delta_ppm": 173.0
+        },
+        {
+          "source_carbon_number": 2,
+          "group": "alkene",
+          "delta_ppm": 118.25
+        },
+        {
+          "source_carbon_number": 3,
+          "group": "alkene",
+          "delta_ppm": 147.34
+        },
+        {
+          "source_carbon_number": 4,
+          "group": "alkene",
+          "delta_ppm": 140.74
+        },
+        {
+          "source_carbon_number": 5,
+          "group": "alkene",
+          "delta_ppm": 129.73
+        },
+        {
+          "source_carbon_number": 6,
+          "group": "CH3",
+          "delta_ppm": 18.7
+        }
+      ],
+      "source_selection_note": "AIST SDBS entry 115 was inspected after user-approved disclaimer acceptance. It lists MS, IR and Raman, but no NMR; no SDBS NMR values were used. The primary research paper above provides the experimental carbon data."
+    },
+    "metrics": [
+      {
+        "system": "conf-01",
+        "alkene_peak_count": 4,
+        "alkene_assigned_MAE_ppm": 8.698900000000013,
+        "alkene_assigned_RMSE_ppm": 9.862578834919407,
+        "alkene_peak_set_MAE_ppm": 6.180850000000017,
+        "alkene_peak_set_RMSE_ppm": 6.3817242399684,
+        "carbonyl_relative_shifts_ppm": [
+          135.0296
+        ],
+        "carbonyl_residuals_ppm": [
+          -19.270400000000024
+        ]
+      },
+      {
+        "system": "conf-02",
+        "alkene_peak_count": 4,
+        "alkene_assigned_MAE_ppm": 9.081275000000016,
+        "alkene_assigned_RMSE_ppm": 10.124000416954766,
+        "alkene_peak_set_MAE_ppm": 5.9639750000000085,
+        "alkene_peak_set_RMSE_ppm": 6.013100859165769,
+        "carbonyl_relative_shifts_ppm": [
+          136.3564
+        ],
+        "carbonyl_residuals_ppm": [
+          -17.943600000000004
+        ]
+      },
+      {
+        "system": "dimer-01-01",
+        "alkene_peak_count": 8,
+        "alkene_assigned_MAE_ppm": 8.259850000000014,
+        "alkene_assigned_RMSE_ppm": 9.68946384507421,
+        "alkene_peak_set_MAE_ppm": 5.4894000000000105,
+        "alkene_peak_set_RMSE_ppm": 5.7892250867452155,
+        "carbonyl_relative_shifts_ppm": [
+          142.73649999999998,
+          142.73649999999998
+        ],
+        "carbonyl_residuals_ppm": [
+          -11.563500000000033,
+          -11.563500000000033
+        ]
+      },
+      {
+        "system": "dimer-01-02",
+        "alkene_peak_count": 8,
+        "alkene_assigned_MAE_ppm": 8.348412500000002,
+        "alkene_assigned_RMSE_ppm": 9.732198206533301,
+        "alkene_peak_set_MAE_ppm": 5.454162499999992,
+        "alkene_peak_set_RMSE_ppm": 5.674365575220715,
+        "carbonyl_relative_shifts_ppm": [
+          142.6232,
+          143.4495
+        ],
+        "carbonyl_residuals_ppm": [
+          -11.676800000000014,
+          -10.850500000000011
+        ]
+      },
+      {
+        "system": "dimer-02-02",
+        "alkene_peak_count": 8,
+        "alkene_assigned_MAE_ppm": 8.482525000000013,
+        "alkene_assigned_RMSE_ppm": 9.801210354211376,
+        "alkene_peak_set_MAE_ppm": 5.404975000000018,
+        "alkene_peak_set_RMSE_ppm": 5.51751967894091,
+        "carbonyl_relative_shifts_ppm": [
+          143.3534,
+          143.3534
+        ],
+        "carbonyl_residuals_ppm": [
+          -10.946600000000018,
+          -10.946600000000018
+        ]
+      }
+    ],
+    "method": "Experimental delta_i - delta_methyl versus calculated mean(sigma_methyl_C) - sigma_i. Each dimer uses one average of its two methyl carbon shieldings, retaining both fragments. Assigned metrics preserve Table II carbon labels (project carbon = 7 - source carbon). Separate peak-set metrics match ascending positions within each fragment. Both MAEs/RMSEs equally weight the four/eight alkene sites, excluding methyl and carboxyl carbon. No empirical slope fitting or spectral mixture.",
+    "limitations": "Gas-phase fixed-structure calculations versus CDCl3 solution; temperature and concentration not specified. Peak-set matching cannot establish site assignments, populations or exchange rates. The source contains peak positions, not a digitized carbon spectrum; equal-height sticks carry no measured intensity information."
+  },
+  "nmr_J": {
+    "source": {
+      "compound": "(2E,4E)-sorbic acid",
+      "doi": "10.1248/jhs1956.37.89",
+      "local_source": "references/experimental/nishiyama-1991-sorbic-isomers.pdf",
+      "location": "Table III, SOA column, printed p. 93 / PDF page 5",
+      "solvent": "CDCl3",
+      "reference": "TMS internal standard",
+      "couplings": [
+        {
+          "atoms": [
+            14,
+            15
+          ],
+          "source_protons": [
+            3,
+            2
+          ],
+          "J_hz": 15.2,
+          "assignment_basis": "Source 2-H doublet J=15.2; source 3-H doublet of doublets shares J=15.2."
+        },
+        {
+          "atoms": [
+            13,
+            14
+          ],
+          "source_protons": [
+            4,
+            3
+          ],
+          "J_hz": 10.0,
+          "assignment_basis": "The remaining 10.0 Hz splitting of source 3-H is assigned to its other vicinal proton, source 4-H, by chain connectivity."
+        }
+      ],
+      "scope": "Only the two resolved couplings around source 3-H are compared. The source 4-H/5-H multiplets do not provide a resolved coupling across the other double bond. Experimental values are reported splitting magnitudes."
+    },
+    "comparisons": [
+      {
+        "system": "conf-02",
+        "pair": "H14--H15",
+        "calculated_J_hz": 15.6217,
+        "experimental_magnitude_hz": 15.2,
+        "difference_hz": 0.4217000000000013
+      },
+      {
+        "system": "conf-02",
+        "pair": "H13--H14",
+        "calculated_J_hz": 11.5586,
+        "experimental_magnitude_hz": 10.0,
+        "difference_hz": 1.5586000000000002
+      }
+    ]
+  }
+}

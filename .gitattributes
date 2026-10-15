@@ -1,0 +1,5 @@
+# Preserve exact calculation bytes and keep large machine output out of diffs.
+data/calculations/** -text -diff
+*.csv -text whitespace=cr-at-eol
+*.png binary
+*.pdf binary

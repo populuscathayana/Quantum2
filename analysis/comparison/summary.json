@@ -1,0 +1,173 @@
+{
+  "systems": [
+    {
+      "system": "conf-01",
+      "units": 1,
+      "bright_state": 2,
+      "bright_energy_ev": 4.8394,
+      "bright_wavelength_nm": 256.2,
+      "bright_f_per_molecule": 0.9872,
+      "broadened_peak_nm": 256.2,
+      "highest_excitation_ev": 9.726,
+      "OH_shieldings_ppm": [
+        27.0304
+      ],
+      "carbonyl_C_shieldings_ppm": [
+        38.8176
+      ],
+      "alkene_J_hz": [
+        15.3724,
+        16.1271
+      ]
+    },
+    {
+      "system": "conf-02",
+      "units": 1,
+      "bright_state": 2,
+      "bright_energy_ev": 4.816,
+      "bright_wavelength_nm": 257.44,
+      "bright_f_per_molecule": 0.9375,
+      "broadened_peak_nm": 257.44,
+      "highest_excitation_ev": 9.5931,
+      "OH_shieldings_ppm": [
+        26.9311
+      ],
+      "carbonyl_C_shieldings_ppm": [
+        37.4764
+      ],
+      "alkene_J_hz": [
+        15.3526,
+        15.6217
+      ]
+    },
+    {
+      "system": "dimer-01-01",
+      "units": 2,
+      "bright_state": 1,
+      "bright_energy_ev": 4.6452,
+      "bright_wavelength_nm": 266.91,
+      "bright_f_per_molecule": 1.1871,
+      "broadened_peak_nm": 264.32,
+      "highest_excitation_ev": 8.7695,
+      "OH_shieldings_ppm": [
+        19.9901,
+        19.9901
+      ],
+      "carbonyl_C_shieldings_ppm": [
+        31.0808,
+        31.0808
+      ],
+      "alkene_J_hz": [
+        15.3641,
+        15.953,
+        15.3641,
+        15.953
+      ]
+    },
+    {
+      "system": "dimer-01-02",
+      "units": 2,
+      "bright_state": 1,
+      "bright_energy_ev": 4.6366,
+      "bright_wavelength_nm": 267.41,
+      "bright_f_per_molecule": 0.9683,
+      "broadened_peak_nm": 263.53,
+      "highest_excitation_ev": 8.7947,
+      "OH_shieldings_ppm": [
+        19.989,
+        20.1402
+      ],
+      "carbonyl_C_shieldings_ppm": [
+        31.1973,
+        30.371
+      ],
+      "alkene_J_hz": [
+        15.3661,
+        15.9618,
+        15.3592,
+        15.6639
+      ]
+    },
+    {
+      "system": "dimer-02-02",
+      "units": 2,
+      "bright_state": 1,
+      "bright_energy_ev": 4.6371,
+      "bright_wavelength_nm": 267.38,
+      "bright_f_per_molecule": 1.3038,
+      "broadened_peak_nm": 265.31,
+      "highest_excitation_ev": 8.8377,
+      "OH_shieldings_ppm": [
+        20.1358,
+        20.1358
+      ],
+      "carbonyl_C_shieldings_ppm": [
+        30.4664,
+        30.4664
+      ],
+      "alkene_J_hz": [
+        15.3575,
+        15.6587,
+        15.3575,
+        15.6587
+      ]
+    }
+  ],
+  "dimers": [
+    {
+      "system": "dimer-01-01",
+      "energy_hartree": -766.923589459393,
+      "relative_energy_kjmol": 4.071825325698568,
+      "min_frequency_cm1": 11.6576,
+      "OO_A": [
+        2.6410743371471304,
+        2.6410739206294176
+      ],
+      "HO_A": [
+        1.635780633569481,
+        1.6357802300241524
+      ]
+    },
+    {
+      "system": "dimer-01-02",
+      "energy_hartree": -766.9243284761993,
+      "relative_energy_kjmol": 2.1315369672450046,
+      "min_frequency_cm1": 21.3731,
+      "OO_A": [
+        2.643985805345986,
+        2.648816819677765
+      ],
+      "HO_A": [
+        1.6396335355130263,
+        1.6440604007794586
+      ]
+    },
+    {
+      "system": "dimer-02-02",
+      "energy_hartree": -766.9251403357537,
+      "relative_energy_kjmol": 0.0,
+      "min_frequency_cm1": 13.8442,
+      "OO_A": [
+        2.651511111638315,
+        2.6515107895562897
+      ],
+      "HO_A": [
+        1.6476339457015208,
+        1.6476336290744475
+      ]
+    }
+  ],
+  "provenance": {
+    "analysis/conf01/verified-results.json": "2f6c99dd19290ef0ec264939d47a20bfe1f9a72d6825c60ec9fd5b289ae74715",
+    "analysis/stage2/verified-results.json": "802c703c1b50a503e0d9acbe34fd5a63c238d74a398e5b64d135fbc4bb2ae3d5",
+    "analysis/dimer-properties/dimer-01-01/uv/verified-results.json": "5a53664fbd2a37ba77677d06c6d73b72e2a556dd2451128031e28e70f48df127",
+    "analysis/dimer-properties/dimer-01-01/nmr/verified-results.json": "c4816f52c9ebb380f31a444cea95a05a2db30e0d4fff5b501113c6dfe8b9e9a8",
+    "analysis/dimer-properties/dimer-01-02/uv/verified-results.json": "568ad962345aa62dc5599aff8991dbf73ac66d5b7a07202602f146499dd26808",
+    "analysis/dimer-properties/dimer-01-02/nmr/verified-results.json": "ccc19dc836b1a92e86e91f01c771f3fbc442091068a297629ae42ed5a9ad84f6",
+    "analysis/dimer-properties/dimer-02-02/uv/verified-results.json": "edb1d21d748afc22cc717369580f54c6a41e22b493579afaa73280fd9a4a7a24",
+    "analysis/dimer-properties/dimer-02-02/nmr/verified-results.json": "a5ae8a87ded08e12135b12890101fd18f2ef88cf21bab66c27061111dde2a374"
+  },
+  "uv_method": "Energy Gaussian FWHM 0.30 eV, amplitude sum(f*Gaussian)/acid units; no Jacobian, no population weights. Plot 160-350 nm; all state ceilings exceed high-energy edge by >3 FWHM.",
+  "nmr_method": "Equal-area Lorentzian per nucleus divided by acid units; H FWHM 0.08 ppm, C 0.80 ppm. One shared maximum per element across all systems for display. Static shieldings, no TMS, J splitting or rotational averaging.",
+  "scope": "Two monomer conformers and three verified gas-phase cyclic-dimer local minima; no solution equilibrium prediction."
+}

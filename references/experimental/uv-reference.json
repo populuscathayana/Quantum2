@@ -1,0 +1,16 @@
+{
+  "compound": "(2E,4E)-sorbic acid",
+  "cas": "110-44-1",
+  "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C110441&Mask=400",
+  "download_url": "https://webbook.nist.gov/cgi/cbook.cgi?Index=0&JCAMP=C110441&Type=UVVis",
+  "source": "Timmons C. J., UV atlas of organic compounds, 1966, 1, B7/1",
+  "identifier": "NIST / RAS UV No. 19947",
+  "access_date": "2026-10-09",
+  "numeric_extract": "uv-reference-points.csv",
+  "points": 126,
+  "columns": {"wavelength_nm": "Wavelength (nm)", "log10_epsilon": "Base-10 logarithm of molar absorption coefficient"},
+  "solvent": null,
+  "temperature": null,
+  "concentration": null,
+  "rights": "Third-party numerical extract; original rights and usage conditions retained. See THIRD_PARTY_NOTICES.md."
+}

@@ -1,0 +1,1440 @@
+{
+  "verified": true,
+  "source_dimer": "dimer-01-02",
+  "job_id": 2475,
+  "source_directory": "received/dimer-01-02-uv-20261009",
+  "geometry_max_error_angstrom": 5.291772575688469e-11,
+  "source_hashes": {
+    "es-sp.gjf": "1de8999e1dde71badca481b01186a8babaa814b9169f21d64ea035ca3b0d5ddc",
+    "es-sp.out": "984f58fc564d8aa6025a8b57b40fb8becc2f648d5f2d046e92fe25b31f26bff4",
+    "es-sp.fchk": "e4b5b9455da2e623526da968889241d649e72475830ec129138fc3bb9d09b696"
+  },
+  "uv_states": [
+    {
+      "state": 1,
+      "energy_ev": 4.6366,
+      "wavelength_nm": 267.41,
+      "oscillator_strength": 0.9683,
+      "transitions": [
+        {
+          "occupied": 60,
+          "virtual": 61,
+          "printed_amplitude": 0.70265
+        }
+      ]
+    },
+    {
+      "state": 2,
+      "energy_ev": 4.6943,
+      "wavelength_nm": 264.12,
+      "oscillator_strength": 0.0202,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 61,
+          "printed_amplitude": 0.55269
+        },
+        {
+          "occupied": 60,
+          "virtual": 62,
+          "printed_amplitude": -0.43992
+        }
+      ]
+    },
+    {
+      "state": 3,
+      "energy_ev": 4.7411,
+      "wavelength_nm": 261.51,
+      "oscillator_strength": 0.6375,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 62,
+          "printed_amplitude": 0.69995
+        }
+      ]
+    },
+    {
+      "state": 4,
+      "energy_ev": 4.8585,
+      "wavelength_nm": 255.19,
+      "oscillator_strength": 0.4747,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 61,
+          "printed_amplitude": 0.43626
+        },
+        {
+          "occupied": 60,
+          "virtual": 62,
+          "printed_amplitude": 0.54961
+        }
+      ]
+    },
+    {
+      "state": 5,
+      "energy_ev": 4.993,
+      "wavelength_nm": 248.32,
+      "oscillator_strength": 0.0002,
+      "transitions": [
+        {
+          "occupied": 57,
+          "virtual": 61,
+          "printed_amplitude": -0.17001
+        },
+        {
+          "occupied": 57,
+          "virtual": 62,
+          "printed_amplitude": 0.29434
+        },
+        {
+          "occupied": 58,
+          "virtual": 61,
+          "printed_amplitude": 0.53363
+        },
+        {
+          "occupied": 58,
+          "virtual": 62,
+          "printed_amplitude": -0.28086
+        }
+      ]
+    },
+    {
+      "state": 6,
+      "energy_ev": 5.0443,
+      "wavelength_nm": 245.79,
+      "oscillator_strength": 0.0002,
+      "transitions": [
+        {
+          "occupied": 57,
+          "virtual": 61,
+          "printed_amplitude": 0.38146
+        },
+        {
+          "occupied": 57,
+          "virtual": 62,
+          "printed_amplitude": 0.2287
+        },
+        {
+          "occupied": 58,
+          "virtual": 61,
+          "printed_amplitude": 0.24463
+        },
+        {
+          "occupied": 58,
+          "virtual": 62,
+          "printed_amplitude": 0.47161
+        }
+      ]
+    },
+    {
+      "state": 7,
+      "energy_ev": 5.7899,
+      "wavelength_nm": 214.14,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 57,
+          "virtual": 61,
+          "printed_amplitude": 0.4834
+        },
+        {
+          "occupied": 57,
+          "virtual": 62,
+          "printed_amplitude": 0.22719
+        },
+        {
+          "occupied": 58,
+          "virtual": 61,
+          "printed_amplitude": -0.18812
+        },
+        {
+          "occupied": 58,
+          "virtual": 62,
+          "printed_amplitude": -0.41159
+        }
+      ]
+    },
+    {
+      "state": 8,
+      "energy_ev": 5.8292,
+      "wavelength_nm": 212.7,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 57,
+          "virtual": 61,
+          "printed_amplitude": -0.27421
+        },
+        {
+          "occupied": 57,
+          "virtual": 62,
+          "printed_amplitude": 0.54075
+        },
+        {
+          "occupied": 58,
+          "virtual": 61,
+          "printed_amplitude": -0.32646
+        },
+        {
+          "occupied": 58,
+          "virtual": 62,
+          "printed_amplitude": 0.1274
+        }
+      ]
+    },
+    {
+      "state": 9,
+      "energy_ev": 6.4235,
+      "wavelength_nm": 193.02,
+      "oscillator_strength": 0.0029,
+      "transitions": [
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": -0.12818
+        },
+        {
+          "occupied": 56,
+          "virtual": 61,
+          "printed_amplitude": 0.67858
+        }
+      ]
+    },
+    {
+      "state": 10,
+      "energy_ev": 6.56,
+      "wavelength_nm": 189.0,
+      "oscillator_strength": 0.0361,
+      "transitions": [
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": -0.10056
+        },
+        {
+          "occupied": 56,
+          "virtual": 62,
+          "printed_amplitude": 0.67089
+        }
+      ]
+    },
+    {
+      "state": 11,
+      "energy_ev": 6.7119,
+      "wavelength_nm": 184.72,
+      "oscillator_strength": 0.0136,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 62,
+          "printed_amplitude": -0.1471
+        },
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": 0.58184
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": 0.22926
+        },
+        {
+          "occupied": 56,
+          "virtual": 62,
+          "printed_amplitude": 0.15415
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": 0.12479
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": 0.12787
+        }
+      ]
+    },
+    {
+      "state": 12,
+      "energy_ev": 6.7648,
+      "wavelength_nm": 183.28,
+      "oscillator_strength": 0.0631,
+      "transitions": [
+        {
+          "occupied": 54,
+          "virtual": 61,
+          "printed_amplitude": 0.33591
+        },
+        {
+          "occupied": 54,
+          "virtual": 62,
+          "printed_amplitude": -0.23028
+        },
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": -0.15155
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": 0.43779
+        },
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": 0.19644
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": -0.12323
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": -0.11381
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": 0.16971
+        }
+      ]
+    },
+    {
+      "state": 13,
+      "energy_ev": 6.795,
+      "wavelength_nm": 182.46,
+      "oscillator_strength": 0.005,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 61,
+          "printed_amplitude": -0.14361
+        },
+        {
+          "occupied": 54,
+          "virtual": 61,
+          "printed_amplitude": -0.33576
+        },
+        {
+          "occupied": 54,
+          "virtual": 62,
+          "printed_amplitude": 0.31505
+        },
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": -0.22734
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": 0.4055
+        },
+        {
+          "occupied": 56,
+          "virtual": 61,
+          "printed_amplitude": 0.11179
+        }
+      ]
+    },
+    {
+      "state": 14,
+      "energy_ev": 6.8113,
+      "wavelength_nm": 182.03,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": 0.48124
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": 0.48016
+        }
+      ]
+    },
+    {
+      "state": 15,
+      "energy_ev": 6.8686,
+      "wavelength_nm": 180.51,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 51,
+          "virtual": 61,
+          "printed_amplitude": 0.49838
+        },
+        {
+          "occupied": 51,
+          "virtual": 62,
+          "printed_amplitude": -0.4497
+        }
+      ]
+    },
+    {
+      "state": 16,
+      "energy_ev": 6.9008,
+      "wavelength_nm": 179.67,
+      "oscillator_strength": 0.0926,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 61,
+          "printed_amplitude": 0.43236
+        },
+        {
+          "occupied": 53,
+          "virtual": 62,
+          "printed_amplitude": 0.39913
+        },
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": 0.18643
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": 0.18123
+        },
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": -0.12604
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": -0.10205
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": -0.12397
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": -0.15261
+        }
+      ]
+    },
+    {
+      "state": 17,
+      "energy_ev": 7.2572,
+      "wavelength_nm": 170.84,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 54,
+          "virtual": 61,
+          "printed_amplitude": 0.4657
+        },
+        {
+          "occupied": 54,
+          "virtual": 62,
+          "printed_amplitude": 0.5119
+        }
+      ]
+    },
+    {
+      "state": 18,
+      "energy_ev": 7.2818,
+      "wavelength_nm": 170.27,
+      "oscillator_strength": 0.0005,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 61,
+          "printed_amplitude": 0.4813
+        },
+        {
+          "occupied": 53,
+          "virtual": 62,
+          "printed_amplitude": -0.47429
+        },
+        {
+          "occupied": 55,
+          "virtual": 61,
+          "printed_amplitude": -0.12496
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": 0.10564
+        }
+      ]
+    },
+    {
+      "state": 19,
+      "energy_ev": 7.3493,
+      "wavelength_nm": 168.7,
+      "oscillator_strength": 0.0008,
+      "transitions": [
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": -0.21802
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.51541
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.35632
+        }
+      ]
+    },
+    {
+      "state": 20,
+      "energy_ev": 7.3939,
+      "wavelength_nm": 167.69,
+      "oscillator_strength": 0.0015,
+      "transitions": [
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": 0.40423
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": -0.27648
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.18304
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": -0.38014
+        },
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": 0.12592
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": -0.11231
+        }
+      ]
+    },
+    {
+      "state": 21,
+      "energy_ev": 7.4878,
+      "wavelength_nm": 165.58,
+      "oscillator_strength": 0.029,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 61,
+          "printed_amplitude": 0.13841
+        },
+        {
+          "occupied": 53,
+          "virtual": 62,
+          "printed_amplitude": 0.24596
+        },
+        {
+          "occupied": 54,
+          "virtual": 62,
+          "printed_amplitude": -0.13183
+        },
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": 0.13021
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": 0.24395
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": 0.51298
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": 0.15839
+        }
+      ]
+    },
+    {
+      "state": 22,
+      "energy_ev": 7.5228,
+      "wavelength_nm": 164.81,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": 0.28189
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": -0.26238
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": 0.34866
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": -0.27654
+        },
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": -0.18635
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": 0.1929
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.11868
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": -0.14269
+        }
+      ]
+    },
+    {
+      "state": 23,
+      "energy_ev": 7.527,
+      "wavelength_nm": 164.72,
+      "oscillator_strength": 0.0701,
+      "transitions": [
+        {
+          "occupied": 53,
+          "virtual": 62,
+          "printed_amplitude": 0.10413
+        },
+        {
+          "occupied": 54,
+          "virtual": 61,
+          "printed_amplitude": -0.18045
+        },
+        {
+          "occupied": 54,
+          "virtual": 62,
+          "printed_amplitude": 0.21007
+        },
+        {
+          "occupied": 55,
+          "virtual": 62,
+          "printed_amplitude": -0.12849
+        },
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": 0.46128
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": -0.19024
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": 0.32339
+        }
+      ]
+    },
+    {
+      "state": 24,
+      "energy_ev": 7.5958,
+      "wavelength_nm": 163.23,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 47,
+          "virtual": 61,
+          "printed_amplitude": 0.4565
+        },
+        {
+          "occupied": 47,
+          "virtual": 62,
+          "printed_amplitude": 0.45637
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": 0.14222
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": 0.1753
+        }
+      ]
+    },
+    {
+      "state": 25,
+      "energy_ev": 7.607,
+      "wavelength_nm": 162.99,
+      "oscillator_strength": 0.0009,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": -0.42239
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": 0.14302
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": -0.14741
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": 0.52237
+        }
+      ]
+    },
+    {
+      "state": 26,
+      "energy_ev": 7.6199,
+      "wavelength_nm": 162.71,
+      "oscillator_strength": 0.001,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 63,
+          "printed_amplitude": 0.12322
+        },
+        {
+          "occupied": 59,
+          "virtual": 64,
+          "printed_amplitude": 0.59124
+        },
+        {
+          "occupied": 60,
+          "virtual": 63,
+          "printed_amplitude": -0.31388
+        },
+        {
+          "occupied": 60,
+          "virtual": 64,
+          "printed_amplitude": -0.15348
+        }
+      ]
+    },
+    {
+      "state": 27,
+      "energy_ev": 7.8151,
+      "wavelength_nm": 158.65,
+      "oscillator_strength": 0.0002,
+      "transitions": [
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": 0.35519
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": -0.27056
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": -0.15873
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": -0.1841
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": -0.14879
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.10216
+        },
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": -0.25212
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": 0.22779
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": -0.16388
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": 0.11142
+        }
+      ]
+    },
+    {
+      "state": 28,
+      "energy_ev": 7.8594,
+      "wavelength_nm": 157.75,
+      "oscillator_strength": 0.0016,
+      "transitions": [
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": 0.1028
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": -0.17016
+        },
+        {
+          "occupied": 47,
+          "virtual": 61,
+          "printed_amplitude": -0.15285
+        },
+        {
+          "occupied": 47,
+          "virtual": 62,
+          "printed_amplitude": -0.16775
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": 0.31793
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": 0.35783
+        },
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": 0.23862
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": 0.18463
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.16126
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": 0.1458
+        }
+      ]
+    },
+    {
+      "state": 29,
+      "energy_ev": 7.9731,
+      "wavelength_nm": 155.5,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": -0.10945
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.11825
+        },
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": -0.26474
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": 0.26755
+        },
+        {
+          "occupied": 57,
+          "virtual": 64,
+          "printed_amplitude": 0.23432
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": 0.43696
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": -0.12116
+        },
+        {
+          "occupied": 58,
+          "virtual": 65,
+          "printed_amplitude": -0.12022
+        }
+      ]
+    },
+    {
+      "state": 30,
+      "energy_ev": 7.9926,
+      "wavelength_nm": 155.12,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 51,
+          "virtual": 61,
+          "printed_amplitude": -0.13347
+        },
+        {
+          "occupied": 51,
+          "virtual": 62,
+          "printed_amplitude": -0.18462
+        },
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": 0.15922
+        },
+        {
+          "occupied": 57,
+          "virtual": 63,
+          "printed_amplitude": 0.2962
+        },
+        {
+          "occupied": 57,
+          "virtual": 64,
+          "printed_amplitude": 0.18842
+        },
+        {
+          "occupied": 57,
+          "virtual": 65,
+          "printed_amplitude": -0.10713
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": 0.2165
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": 0.41008
+        },
+        {
+          "occupied": 58,
+          "virtual": 66,
+          "printed_amplitude": 0.1177
+        }
+      ]
+    },
+    {
+      "state": 31,
+      "energy_ev": 8.0181,
+      "wavelength_nm": 154.63,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.10729
+        },
+        {
+          "occupied": 51,
+          "virtual": 61,
+          "printed_amplitude": 0.44365
+        },
+        {
+          "occupied": 51,
+          "virtual": 62,
+          "printed_amplitude": 0.47347
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": -0.11275
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": 0.1203
+        }
+      ]
+    },
+    {
+      "state": 32,
+      "energy_ev": 8.0482,
+      "wavelength_nm": 154.05,
+      "oscillator_strength": 0.0008,
+      "transitions": [
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": -0.21804
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": 0.19883
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": -0.10064
+        },
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": -0.12067
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.14559
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": -0.1425
+        },
+        {
+          "occupied": 52,
+          "virtual": 61,
+          "printed_amplitude": -0.26035
+        },
+        {
+          "occupied": 52,
+          "virtual": 62,
+          "printed_amplitude": 0.25003
+        },
+        {
+          "occupied": 57,
+          "virtual": 63,
+          "printed_amplitude": 0.18364
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": -0.20957
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": 0.26479
+        }
+      ]
+    },
+    {
+      "state": 33,
+      "energy_ev": 8.4404,
+      "wavelength_nm": 146.89,
+      "oscillator_strength": 0.0001,
+      "transitions": [
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": -0.15838
+        },
+        {
+          "occupied": 45,
+          "virtual": 62,
+          "printed_amplitude": 0.13548
+        },
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": -0.10109
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": 0.30318
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": -0.29515
+        },
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": 0.17781
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": -0.19476
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": -0.29751
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.29612
+        }
+      ]
+    },
+    {
+      "state": 34,
+      "energy_ev": 8.4717,
+      "wavelength_nm": 146.35,
+      "oscillator_strength": 0.0001,
+      "transitions": [
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": -0.12207
+        },
+        {
+          "occupied": 45,
+          "virtual": 62,
+          "printed_amplitude": -0.11602
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": -0.20708
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": -0.22904
+        },
+        {
+          "occupied": 49,
+          "virtual": 61,
+          "printed_amplitude": 0.37766
+        },
+        {
+          "occupied": 49,
+          "virtual": 62,
+          "printed_amplitude": 0.42301
+        },
+        {
+          "occupied": 50,
+          "virtual": 61,
+          "printed_amplitude": 0.11274
+        },
+        {
+          "occupied": 50,
+          "virtual": 62,
+          "printed_amplitude": 0.12769
+        }
+      ]
+    },
+    {
+      "state": 35,
+      "energy_ev": 8.4977,
+      "wavelength_nm": 145.9,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 67,
+          "printed_amplitude": 0.46977
+        },
+        {
+          "occupied": 59,
+          "virtual": 68,
+          "printed_amplitude": -0.22377
+        },
+        {
+          "occupied": 60,
+          "virtual": 67,
+          "printed_amplitude": -0.43405
+        },
+        {
+          "occupied": 60,
+          "virtual": 68,
+          "printed_amplitude": 0.183
+        }
+      ]
+    },
+    {
+      "state": 36,
+      "energy_ev": 8.5095,
+      "wavelength_nm": 145.7,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 59,
+          "virtual": 67,
+          "printed_amplitude": 0.20706
+        },
+        {
+          "occupied": 59,
+          "virtual": 68,
+          "printed_amplitude": 0.40802
+        },
+        {
+          "occupied": 60,
+          "virtual": 67,
+          "printed_amplitude": 0.21887
+        },
+        {
+          "occupied": 60,
+          "virtual": 68,
+          "printed_amplitude": 0.48608
+        }
+      ]
+    },
+    {
+      "state": 37,
+      "energy_ev": 8.7104,
+      "wavelength_nm": 142.34,
+      "oscillator_strength": 0.0,
+      "transitions": [
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": 0.1346
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": 0.13302
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": 0.14764
+        },
+        {
+          "occupied": 57,
+          "virtual": 63,
+          "printed_amplitude": 0.41187
+        },
+        {
+          "occupied": 57,
+          "virtual": 64,
+          "printed_amplitude": 0.24335
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": -0.19528
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": -0.34706
+        }
+      ]
+    },
+    {
+      "state": 38,
+      "energy_ev": 8.7543,
+      "wavelength_nm": 141.63,
+      "oscillator_strength": 0.0002,
+      "transitions": [
+        {
+          "occupied": 42,
+          "virtual": 62,
+          "printed_amplitude": -0.10156
+        },
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": -0.13878
+        },
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": 0.10522
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": 0.12194
+        },
+        {
+          "occupied": 57,
+          "virtual": 63,
+          "printed_amplitude": -0.35809
+        },
+        {
+          "occupied": 57,
+          "virtual": 64,
+          "printed_amplitude": 0.42658
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": -0.24318
+        },
+        {
+          "occupied": 58,
+          "virtual": 64,
+          "printed_amplitude": 0.19708
+        }
+      ]
+    },
+    {
+      "state": 39,
+      "energy_ev": 8.7718,
+      "wavelength_nm": 141.34,
+      "oscillator_strength": 0.0003,
+      "transitions": [
+        {
+          "occupied": 42,
+          "virtual": 61,
+          "printed_amplitude": -0.11299
+        },
+        {
+          "occupied": 42,
+          "virtual": 62,
+          "printed_amplitude": -0.10511
+        },
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": -0.23368
+        },
+        {
+          "occupied": 45,
+          "virtual": 62,
+          "printed_amplitude": -0.21355
+        },
+        {
+          "occupied": 46,
+          "virtual": 61,
+          "printed_amplitude": 0.30229
+        },
+        {
+          "occupied": 46,
+          "virtual": 62,
+          "printed_amplitude": 0.3179
+        },
+        {
+          "occupied": 48,
+          "virtual": 62,
+          "printed_amplitude": 0.14549
+        },
+        {
+          "occupied": 57,
+          "virtual": 64,
+          "printed_amplitude": -0.29499
+        },
+        {
+          "occupied": 58,
+          "virtual": 63,
+          "printed_amplitude": 0.18345
+        }
+      ]
+    },
+    {
+      "state": 40,
+      "energy_ev": 8.7947,
+      "wavelength_nm": 140.98,
+      "oscillator_strength": 0.0001,
+      "transitions": [
+        {
+          "occupied": 42,
+          "virtual": 61,
+          "printed_amplitude": 0.18366
+        },
+        {
+          "occupied": 42,
+          "virtual": 62,
+          "printed_amplitude": -0.14638
+        },
+        {
+          "occupied": 45,
+          "virtual": 61,
+          "printed_amplitude": -0.17917
+        },
+        {
+          "occupied": 45,
+          "virtual": 62,
+          "printed_amplitude": 0.1944
+        },
+        {
+          "occupied": 47,
+          "virtual": 61,
+          "printed_amplitude": -0.40424
+        },
+        {
+          "occupied": 47,
+          "virtual": 62,
+          "printed_amplitude": 0.40442
+        },
+        {
+          "occupied": 48,
+          "virtual": 61,
+          "printed_amplitude": -0.10381
+        }
+      ]
+    }
+  ],
+  "strongest_transition": {
+    "state": 1,
+    "energy_ev": 4.6366,
+    "wavelength_nm": 267.41,
+    "oscillator_strength": 0.9683,
+    "transitions": [
+      {
+        "occupied": 60,
+        "virtual": 61,
+        "printed_amplitude": 0.70265
+      }
+    ]
+  },
+  "fchk_energy_max_error_ev": 5.7568696192333846e-05,
+  "fchk_oscillator_strength_max_error": 4.9947660684328116e-05,
+  "coverage": {
+    "highest_computed_energy_ev": {
+      "conf-01": 9.726,
+      "conf-02": 9.5931,
+      "dimer-01-02": 8.7947
+    },
+    "common_computed_energy_ceiling_ev": 8.7947,
+    "comparison_short_wavelength_guard_nm": 157.04738419445957,
+    "guard_method": "Restrict comparison to energies at least three Gaussian FWHM (0.30 eV each) below the lowest available state ceiling. Recheck with other dimers. Not a formal state-count convergence test.",
+    "limitations": "Do not depict 120 nm as calculated zero absorption. No states above the computed ceilings; no population weighting."
+  }
+}

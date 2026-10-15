@@ -1,0 +1,13 @@
+{
+  "compound": "(2E,4E)-sorbic acid",
+  "doi": "10.1248/jhs1956.37.89",
+  "local_source": "references/experimental/nishiyama-1991-sorbic-isomers.pdf",
+  "location": "Table III, SOA column, printed p. 93 / PDF page 5",
+  "solvent": "CDCl3",
+  "reference": "TMS internal standard",
+  "couplings": [
+    {"atoms": [14, 15], "source_protons": [3, 2], "J_hz": 15.2, "assignment_basis": "Source 2-H doublet J=15.2; source 3-H doublet of doublets shares J=15.2."},
+    {"atoms": [13, 14], "source_protons": [4, 3], "J_hz": 10.0, "assignment_basis": "The remaining 10.0 Hz splitting of source 3-H is assigned to its other vicinal proton, source 4-H, by chain connectivity."}
+  ],
+  "scope": "Only the two resolved couplings around source 3-H are compared. The source 4-H/5-H multiplets do not provide a resolved coupling across the other double bond. Experimental values are reported splitting magnitudes."
+}

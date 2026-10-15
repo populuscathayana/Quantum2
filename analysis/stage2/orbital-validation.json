@@ -1,0 +1,27 @@
+{
+  "source": "data/calculations/conf-02/uv.fchk",
+  "mo_indices": [
+    29,
+    30,
+    31
+  ],
+  "max_all_MO_orthonormality_error": 8.49537945422186e-09,
+  "pi_odd_reflection_relative_residual": [
+    1.999996851978593,
+    0.0002454714757164527,
+    0.00025076569844073067
+  ],
+  "grid_spacing_bohr": 0.18,
+  "isovalue_au": 0.035,
+  "grid_shape": [
+    131,
+    73,
+    59
+  ],
+  "triangles_per_orbital": [
+    46776,
+    81264,
+    85636
+  ],
+  "renderer": "normalized Cartesian GTO; linear marching tetrahedra; depth-sorted orthographic projection"
+}
